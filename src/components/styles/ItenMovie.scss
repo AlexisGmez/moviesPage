@@ -1,0 +1,28 @@
+.card{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-position: top;
+    background-size: cover;
+
+    .card__movie{
+        height: 100px;
+        color: #fff;
+        background-size: 3em 25%;
+        background: rgba(0, 0, 0, 0.432);
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding: 1rem;
+        
+        a{
+            
+            color: #fff;
+
+            &:hover{
+                color: blue;
+            }
+        }
+    }
+}

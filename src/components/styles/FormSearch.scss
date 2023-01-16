@@ -1,0 +1,30 @@
+.form__search{
+    
+    padding: 1rem;
+    h2{
+        color: red;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        
+        input:first-child{
+            padding: .5rem;
+            width: 30%;
+            outline: none;
+
+        }
+        input:last-child{
+            background: red;
+            padding: .5rem 1rem;
+            border: 1px solid rgb(87, 11, 11);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover{
+                background: rgb(170, 21, 21);
+            }
+        }
+    }
+    
+}
